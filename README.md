@@ -15,4 +15,14 @@ Usage:  ./cfscp.sh app-name source target
 * source = folder to copy 
 * target = container folder ( Should be like be /home/vcap/app )
  
- :warning: You have to specify CF_HOST='YOUR_CF_HOST' in the cfscp.sh file
+ :warning:  Requirement
+ 
+ > 1°) You have to specify
+ 
+ >CF_HOST='YOUR_CF_HOST' in the cfscp.sh file
+  
+ >  2°) xclip is mandatory
+ 
+ https://github.com/astrand/xclip
+ 
+ > sudo apt-get install xclip
