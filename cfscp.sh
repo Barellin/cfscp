@@ -57,6 +57,6 @@ msg " GET APP-ID $APP_ID"
 
 cf ssh-code | xclip -selection clipboard
 
-msg "  Paste your password is in clipboard Shift + Ctrl + V"
+msg "  Paste your CF Token by using clipboard Shift + Ctrl + V"
 
 scp -r -P 2222 -o User=cf:$APP_ID/0 $2 $CF_HOST:$3
