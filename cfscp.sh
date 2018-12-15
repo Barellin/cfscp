@@ -6,9 +6,9 @@ BLUE='\033[1;34m'    # blue
 PURPLE='\033[1;35m'  # purple
 NC='\033[0m'         # No Color
 
-#-------------------- Function
-
 CF_HOST='YOUR_CF_HOST'
+
+#-------------------- Function
 
 #$1 msg to display
 #$2 level OK , WARN, ERROR displayed with color
